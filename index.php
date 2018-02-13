@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
      <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +9,6 @@ and open the template in the editor.
 
     <title>CVIAWEB</title>
 
-     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <!-- Bootstrap structure CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -23,64 +16,57 @@ and open the template in the editor.
     <link href="css/animate.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    
+
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-    
+
 </head>
 <body id="page-top" class="landing-page no-skin-config">
 <div class="navbar-wrapper">
         <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
-            <div w3-include-html="include/index/navINDEX.html"></div> 
-            <script>
-                w3.includeHTML();
-            </script>
-        
+<!-- AFFICHE LA BARRE DE NAVIGATION EN HAUT DE PAGE  -->
+<?php include "include/index/navINDEX.html"; ?>
+
         </nav>
 </div>
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <div w3-include-html="include/index/home.html"></div> 
-    <script>
-        w3.includeHTML();
-    </script>
+<!-- AFFICHAGE DU CAROUSEL D'INFORMATIONS -->
+  <?php include "include/index/home.html"; ?>
+
 </div>
 
 
 <section id="features" class="container services">
     <div class="row">
-      <div w3-include-html="include/index/exp.html"></div> 
-        <script>
-            w3.includeHTML();
-        </script>
+<!--   LIGNE D'INFORMATIONS EN DESSOUS DU CAROUSEL-->
+<?php include "include/index/exp.html"; ?>
+
     </div>
 </section>
 
 <section  class="container features">
-    <div w3-include-html="include/index/features.html"></div> 
-    <script>
-        w3.includeHTML();
-    </script>
-    
+  <!--  AFFICHE LES INFORMATIONS SUR LE PROJET -->
+  <?php include "include/index/features.html"; ?>
+
+
 </section>
 
 
 <section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
 
     <div class="container">
-         <div w3-include-html="include/index/started.html"></div> 
-        <script>
-            w3.includeHTML();
-        </script>
+      <!-- AFFICHE L'ESPACE "START"  -->
+      <?php include "include/index/started.html"; ?>
+
     </div>
 
 </section>
 
 <section id="contact" class="gray-section contact">
     <div class="row">
-        <div w3-include-html="include/index/footerINDEX.html"></div> 
-        <script>
-            w3.includeHTML();
-        </script>
+      <!--  AFFICHE LE PIED DE PAGE -->
+      <?php include "include/index/footerINDEX.html"; ?>
+
     </div>
 </section>
 
@@ -99,18 +85,3 @@ and open the template in the editor.
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
