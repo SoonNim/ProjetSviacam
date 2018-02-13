@@ -371,13 +371,6 @@
                 console.log("An error occured! " + err);
             });
 
-        $(document).ready(function(){
-            $('.i-checks').iCheck({
-                checkboxClass: 'icheckbox_square-red',
-                radioClass: 'iradio_square-red'
-            });
-          });
-
     </script>
 
 </body>
