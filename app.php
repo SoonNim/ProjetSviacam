@@ -92,7 +92,7 @@
                             </div>
                         </div>
                         <div class="ibox-content">
-                            <video id="videoInput" style="position:relative"></video>
+                            <video id="monitor" autoplay style="position:relative"> </video>
                             <canvas id="canvas1" class="canvas" width=100px; height="100px" style="border: 1px solid red;position:absolute;left:15%;top:15%; display: none;" ></canvas>
                             <canvas id="canvas2" class="canvas" width=100px; height="100px" style="border: 1px solid blue;position:absolute;right:15%;top:15%; display: none;"></canvas>
                             <canvas id="canvas3" class="canvas" width=100px; height="100px" style="border: 1px solid yellow;position:absolute;right:15%;bottom:15%; display: none;"></canvas>
@@ -243,8 +243,9 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
+    <!--  Scripts media-->
+    <script src="js/media.js"></script>
     <script src="include/app/app.js"></script>
-    <script src="include/app/webcam.js"></script>
 
     <!-- Custom and plugin javascript -->
     <script src="js/inspinia.js"></script>
